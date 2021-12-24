@@ -1,3 +1,3 @@
-const Productdetail = () => <h1>Detail</h1>;
+const Productdetail = () => <h1>En Proceso</h1>;
 
 export default Productdetail;

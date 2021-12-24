@@ -4,12 +4,13 @@ import About from "./components/about";
 import Productdetail from "./components/productdetail";
 import "./styles/App.css";
 
+
 function App() {
   return (
     <div>
 
       
-      <nav className="nav">
+<nav className="nav">
         <Link to="/productcard"> Product Card </Link>
         
         <Link to="/about"> About</Link>

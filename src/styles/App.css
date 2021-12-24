@@ -1,15 +1,36 @@
 
 .nav {
-  position: absolute;
-  left: 15%;
-  transform: translatex(-50%);
+  position: relative;
+  display: inline-block;
+  
+  width:10%;
+  padding:5px 20px;
+  background-color:cadetblue;
+  border:2px solid cyan;
+  text-align:center;
+  color:aquamarine;
+
+  bottom: 20px;
+  border-bottom: 30px;
   border-radius: 10px;
-  border-color: blue;
+  padding: 10px;
+  left: 19%;
+  transform: translatex(-50%);
   margin-top:20px;
 
-  color: black;
-  font-size: x-large;
+  font-size: x-smaller;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  -webkit-text-stroke-width: thick;
+
   inline-size: auto;
 }
+.nav a{
+  padding: 8px;
+  background-color: aliceblue;
+  color: cornflowerblue;
+  border-radius: 20px;
+  
+
+}
+
+
+
